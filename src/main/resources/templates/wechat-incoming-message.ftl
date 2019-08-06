@@ -1,5 +1,5 @@
 <#if executionData.job.group != "">
-    <#assign jobName="${executionData.job.group} / ${executionData.job.name}">
+    <#assign jobName="${executionData.job.group}/${executionData.job.name}">
 <#else>
     <#assign jobName="${executionData.job.name}">
 </#if>
