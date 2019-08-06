@@ -55,7 +55,7 @@ public class WeChatNotificationPlugin implements NotificationPlugin {
   private static final String WECHAT_MESSAGE_TEMPLATE = "wechat-incoming-message.ftl";
 
   @PluginProperty(name = "webhookUrl", title = "Webhook地址",
-      description = "企业微信群机器人Webhook地址，可以添加多个地址，以逗号分隔。", required = true)
+      description = "企业微信群机器人Webhook地址。可以添加多个地址，以逗号分隔。", required = true)
   private String webhookUrl;
 
   @PluginProperty(name = "mentions", title = "＠", description = "需要提及的人。", required = false)
