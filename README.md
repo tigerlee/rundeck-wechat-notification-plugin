@@ -4,10 +4,10 @@
 
 ## 安装
 
-1. 下载 [插件文件](https://github.com/tigerlee/rundeck-wechat-notification-plugin/releases/download/v1.0.0/rundeck-wechat-notification-plugin-1.0.0.jar)
+1. 下载 [插件文件](https://github.com/tigerlee/rundeck-wechat-notification-plugin/releases/download/1.0.0/wechat-notification-plugin-1.0.0.jar)
 
 ```sh
-wget "https://github.com/tigerlee/rundeck-wechat-notification-plugin/releases/download/v1.0.0/rundeck-wechat-notification-plugin-1.0.0.jar"
+wget "https://github.com/tigerlee/rundeck-wechat-notification-plugin/releases/download/1.0.0/wechat-notification-plugin-1.0.0.jar"
 ```
 
 2. 将插件文件`rundeck-wechat-notification-plugin-1.0.0.jar`放到[插件目录](https://rundeck.org/docs/developer/plugin-development.html)
