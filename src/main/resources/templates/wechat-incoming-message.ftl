@@ -15,20 +15,20 @@
     <#assign style="comment">
 </#if>
 
-<#assign result="状态: <font color='${style}'>${executionData.status}</font>\n">
-<#assign startTime="开始: ${executionData.dateStarted?string[\"yyyy-MM-dd HH:mm:ss\"]}\n">
+<#assign result=">状态: <font color='${style}'>${executionData.status}</font>\n">
+<#assign startTime=">开始: ${executionData.dateStarted?string[\"yyyy-MM-dd HH:mm:ss\"]}\n">
 
 <#if executionData.dateEnded??>
-<#assign endTime="结束: ${executionData.dateEnded?string[\"yyyy-MM-dd HH:mm:ss\"]}\n">
+<#assign endTime=">结束: ${executionData.dateEnded?string[\"yyyy-MM-dd HH:mm:ss\"]}\n">
 <#else>
 <#assign endTime="">
 </#if>
 
-<#assign user="用户: ${executionData.user}\n">
-<#assign link="详情: [查看](${executionData.href})\n">
+<#assign user=">用户: ${executionData.user}\n">
+<#assign link=">详情: [查看](${executionData.href})\n">
 
 <#if mentions != "">
-<#assign mentioned="@${mentions}">
+<#assign mentioned=">@${mentions}">
 <#else>
 <#assign mentioned="">
 </#if>
