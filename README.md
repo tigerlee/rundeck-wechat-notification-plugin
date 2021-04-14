@@ -27,7 +27,7 @@ $ git clone git@github.com:tigerlee/rundeck-wechat-notification-plugin.git
 $ cd rundeck-wechat-notification-plugin
 $ gradle build
 # 或通过Docker
-# docker run --rm -v "$PWD":/home/gradle/project -w /home/gradle/project gradle build
+# docker run --rm -v "$PWD":/home/gradle/project -w /home/gradle/project gradle:6.0.0-jdk8 gradle build
 ```
 ## 使用说明
 ### 提供者: `WeChatNotificationPlugin`
